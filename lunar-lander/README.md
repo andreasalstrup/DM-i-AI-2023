@@ -120,7 +120,7 @@ source .venv/bin/activate # bash
 
 ```shell 
 conda env create -f environment.yml
-conda activate lunar_lander
+conda activate lu
 python3 run_game.py
 ```
 
