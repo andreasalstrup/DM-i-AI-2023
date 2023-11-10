@@ -1,10 +1,11 @@
 name: lu
 channels:
   - conda-forge
-  - defaults
+  - pytorch
 dependencies:
   - numpy
-  - pip
   - gym-box2d
   - pygame
   - gymnasium
+  - pytorch
+  - matplotlib
