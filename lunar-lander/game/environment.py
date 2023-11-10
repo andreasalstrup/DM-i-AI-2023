@@ -1,6 +1,5 @@
 import gymnasium as gym
 
-
 class LunarLanderEnvHandler():
     def __init__(self, render_mode=None) -> None:
         self.env = gym.make(

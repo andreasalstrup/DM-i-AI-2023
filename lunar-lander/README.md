@@ -119,8 +119,9 @@ source .venv/bin/activate # bash
 ```
 
 ```shell 
-conda create -n lunar_lander
+conda env create -f environment.yml
 conda activate lunar_lander
+python3 run_game.py
 ```
 
 ### Install dependencies

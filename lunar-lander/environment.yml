@@ -1,0 +1,10 @@
+name: lu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pip
+  - gym-box2d
+  - pygame
+  - gymnasium
