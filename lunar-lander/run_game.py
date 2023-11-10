@@ -8,7 +8,6 @@ observation = lunar_env.reset(seed=0)
 
 current_key = None
 
-
 def get_move_from_keyboard():
     global current_key
 
@@ -28,7 +27,6 @@ def get_move_from_keyboard():
         return 2
     else:
         return 0
-
 
 while True:
     action = get_move_from_keyboard()
